@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary title="URL Utilities Terminology">
+	<suite name="URL Utilities Suite" code="MCST" description="Commands to shorten URLs.">
+		<command name="shorten url" code="MCSTURLS" description="Shorten a URL that is passed in.">
+			<direct-parameter type="url" description="The URL to shorten"/>
+            <parameter name="with" code="STSW" type="web service" description="Web server used to shorten URL" />
+            <documentation>
+                <html>
+                    <![CDATA[<p>EXAMPLE: shorten url "http://www.dirtdon.com" with cloudapp</p>]]>
+                </html>
+            </documentation>
+		</command>
+        <enumeration name="web service" code="WEBZ">
+			<enumerator name="google" code="goog" description="Google goo.gl service" />
+            <enumerator name="isgd" code="isgd" description="The is.gd service" />
+            <enumerator name="cloudapp" code="clwd" description="CloudApp service" />
+		</enumeration>
+	</suite>
+</dictionary>

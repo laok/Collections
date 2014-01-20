@@ -1,0 +1,3 @@
+[submodule "submodules/git-submodule-tutorial"]
+	path = submodules/git-submodule-tutorial
+	url = https://github.com/NebuPookins/git-submodule-tutorial.git

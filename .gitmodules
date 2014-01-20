@@ -1,0 +1,3 @@
+[submodule "Docments"]
+	path = Docments
+	url = https://github.com/NebuPookins/git-submodule-tutorial.git

@@ -1,0 +1,29 @@
+[{
+  "trigger": {
+    "url-filter": "247realmedia.com"
+  },
+  "action": {
+    "type": "block"
+  }
+}, {
+  "trigger": {
+    "url-filter": "sitecatalyst.js"
+  },
+  "action": {
+    "type": "block"
+  }
+}, {
+  "trigger": {
+    "url-filter": "twitter.com/widgets.js"
+  },
+  "action": {
+    "type": "block"
+  }
+}, {
+  "trigger": {
+    "url-filter": "usertracking_script.js"
+  },
+  "action": {
+    "type": "block"
+  }
+}]
